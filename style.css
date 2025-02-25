@@ -43,3 +43,39 @@ a {
 li {
     list-style: none;
 }
+button ,a {
+    font-size:1.15rem;
+    letter-spacing: 0.03rem;
+    word-spacing: .1rem;
+}
+.nav-link {
+    color:var(--bs-main-color);
+}
+.nav-link:hover{
+    color:var(--secondary-color)!important;
+}
+/* hero section start  */
+.hero-section .container {
+    display:grid;
+    place-content: center;
+    height:  inherit;
+
+}
+.bg-main {
+    height: 80vh;
+    position:relative;
+}
+.bg-color {
+    background-color: var(--bs-dark-primary);
+}
+.text-light-grey {
+    color:var(--bs-primary-color);
+}
+.bg-theme {
+    color:var(--bs-supporting-color);
+    background-image: none!important;
+}
+.hero-video--section {
+    width:30rem;
+    border-radius: 2rem;
+}
